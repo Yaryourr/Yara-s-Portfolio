@@ -1,0 +1,72 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* STYLE SECTIONING TAGS */
+body {
+ background-color:#B9D1DF;
+ text-align: center; 
+  margin-top:0;
+  margin-bottom:0;
+  margin-left:10%;
+  margin-right:10%;
+}
+
+/* STYLE TEXT */
+h1 {text-align: center;}
+h1 {
+  color:#004266;
+  font-size: 5em;
+  font-family:Brush Script MT, Brush Script Std, cursive;
+  font-weight: 30;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+p {
+  color:#003049;
+  font-size: 1.5em;
+} 
+#intro {
+  color:#003049;
+  font-style:italic;
+  font-size: 1.7em;
+} 
+h3 {
+  margin-top: 0.5em;
+  color: #669bbc;
+  font-size: 2em;
+}
+
+a {
+  font-size: 1.5em;
+  color:#669bbc;
+}
+/* STYLE IMAGES */
+img {
+  max-width: 95%;
+  max-height: 85%;
+  border-radius: 20%;
+  border: 5px inset #669bbc;
+  margin-bottom: 1.5em;
+  margin-top: 0.5em;
+
+  }
+
+/* STYLE NAV BAR */
+ul {list-style-type: none;
+    background-color: #9CBED3;
+    overflow: hidden;
+    padding:0.2em;}
+
+li {display: inline;
+    justify-content: space-between;
+   }
+li a { text-decoration: none;
+       color: #004266; 
+       font-size: 1.5em;
+       padding: 1em;}
+li a:hover {
+  background-color:#B9D1DF;
+}
